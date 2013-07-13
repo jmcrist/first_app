@@ -5,13 +5,13 @@ gem 'rails', '3.2.13'
 
 gem 'heroku'
 
-group :production do
+# group :production do
   gem 'pg', '0.12.2'
-end
+# end
 
-group :development do
-  gem 'sqlite3', '1.3.5'
-end
+# group :development do
+#   gem 'sqlite3', '1.3.5'
+# end
 
 
 # Gems used only for assets and not required
